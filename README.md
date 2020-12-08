@@ -4,4 +4,4 @@ Create a dashboard displaying 311 response times for incidents filed in 2020. As
 
 Run the dashboard by executing the following code from outside of `nyc_dash`. 
 
-`bokeh serve --address='*' --port=port_number --allow-websocket-origin=IP_address:port_number nyc_dash`
+`bokeh serve --address='*' --port=port_number --allow-websocket-origin=IP_address:port_number --auth=auth.py nyc_dash`
